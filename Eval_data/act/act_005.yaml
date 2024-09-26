@@ -1,0 +1,58 @@
+P1:
+ high-level task: wash hands before having dinner
+ action:
+  - close "door"
+  - go to "sink"
+  - wash hands
+  - dry hands with a towel
+  - go to "dining table"
+  - sit on "dining chair"
+  
+ start:
+  - door
+  - door
+  - sink
+  - sink
+  - sink
+  - dining table
+ 
+ goal:
+  - door
+  - sink
+  - sink
+  - sink
+  - dining table
+  - dining table
+  
+P2:
+ action:
+  - preparing dinner
+ 
+ start:
+  - kitchen counter
+ 
+ goal:
+  - kitchen counter
+   
+objects:
+ - door
+ - sink
+ - chair
+ - dining table
+ - kitchen counter
+ 
+conversation:
+ - 
+ - P2 told P2 that dinner is almost ready.
+ - 
+ - 
+ - P1 told P2 that P1 is now ready to eat.
+ - 
+ 
+object states:
+ - The entrance door is open
+ - The entrance door is close
+ - Dinner is almost ready
+ - Dinner is almost ready
+ - Dinner is almost ready
+ - Dinner is almost ready

@@ -1,0 +1,67 @@
+P1:
+ high-level task: boil water
+ action:
+  - sit up from "coffee table"
+  - go to "cupboard"
+  - get "pod"
+  - go to "sink"
+  - pour water into "pod"
+  - go to "stove"
+  - put "pod" on "stove"
+  - turn on "stove"
+  
+ start:
+  - coffee table
+  - coffee table
+  - cupboard
+  - cupboard
+  - sink
+  - sink
+  - stove
+  - stove
+ 
+ goal:
+  - coffee table
+  - cupboard
+  - cupboard
+  - sink
+  - sink
+  - stove
+  - stove
+  - stove
+
+P2:
+ action:
+  - reading a book at "coffee table"
+ 
+ start:
+  - coffee table
+ 
+ goal:
+  - coffee table
+ 
+objects:
+ - cupboard
+ - sink
+ - stove
+ - coffee table
+ 
+conversation:
+ - 
+ - P1 asked P2 if P2 would like to have a hot tea, and P2 replied 'Yes'.
+ - 
+ - P1 asked P2 how much tea P2 drinks.
+ - 
+ - P1 said, 'I'll bring you my favorite tea in a few minutes.'
+ - 
+ - 
+
+object states:
+ - Here, "cupboard" has glasses, cups, plates, knives, folks, pod
+ - Here, "cupboard" has glasses, cups, plates, knives, folks, pod
+ - Here, "cupboard" has glasses, cups, plates, knives, folks, pod
+ - Here, "P1" is holding a empty pot
+ - Here, "P1" is holding a empty pot
+ - Here, "P1" is holding a pot with room temperature water
+ - Here, "P1" is holding a pot with room temperature water
+ - A pot with room temperature water is on the stove

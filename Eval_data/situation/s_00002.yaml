@@ -1,0 +1,29 @@
+P1:
+ name: Mary
+ age: 45
+ gender: female
+ agent type: human
+ relationship to others:
+  - Scarlet: child
+ personality:
+  - analytical
+  - introverted
+  - methodical
+
+P2:
+ name: Scarlet
+ age: 14
+ gender: female
+ agent type: human
+ relationship to others:
+  - Mary: parent
+ personality:
+  - creative
+  - extroverted
+  - compassionate
+
+Scene:
+ season: winter
+ day: week day
+ time: "7:55"
+

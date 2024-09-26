@@ -1,0 +1,29 @@
+P1:
+ name: Victoria
+ age: 15
+ gender: female
+ agent type: human
+ relationship to others:
+  - Hance: child
+ personality:
+  - analytical
+  - introverted
+  - methodical
+
+P2:
+ name: Hance
+ age: 56
+ gender: male
+ agent type: human
+ relationship to others:
+  - Victoria: parent
+ personality:
+  - creative
+  - extroverted
+  - compassionate
+
+Scene:
+ season: fall
+ day: weekend
+ time: "17:30"
+

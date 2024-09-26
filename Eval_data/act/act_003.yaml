@@ -1,0 +1,56 @@
+P1:
+ high-level task: get the remote on "table" and watch "tv"
+ action:
+  - look around "couch"
+  - go to "table"
+  - get remote
+  - go to "couch"
+  - sit on "couch"
+  - turn on "tv"
+  
+ start:
+  - couch
+  - couch
+  - table
+  - table
+  - couch
+  - couch
+ 
+ goal:
+  - couch
+  - table
+  - table
+  - couch
+  - couch
+  - couch
+
+P2:
+ action:
+  - reading a newspaper on "couch"
+ 
+ start:
+  - couch
+ 
+ goal:
+  - couch
+ 
+objects:
+ - table
+ - couch
+ - tv
+ 
+conversation:
+ - 
+ - P1 asked P2 where the remote was, and P2 replied that it was on the table.
+ - 
+ - P1 and P2 discussed which TV program P1 plans to watch.
+ - 
+ - 
+
+object states:
+ - remote is on the "table"
+ - remote is on the "table"
+ - remote is on the "table"
+ - Here, "P1" is holding remote, "tv is off"
+ - Here, "P1" is holding remote, "tv is off"
+ - Here, "P1" is holding remote, "tv is off"

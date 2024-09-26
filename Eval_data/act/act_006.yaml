@@ -1,0 +1,63 @@
+P1:
+ high-level task: open "curtain" and water "plant"
+ action:
+  - close "door"
+  - go to "curtain"
+  - open "curtain"
+  - go to "sink"
+  - pour water into "watering can"
+  - go to "plant"
+  - pour water on "plant"
+  
+ start:
+  - door
+  - door
+  - curtain
+  - curtain
+  - sink
+  - sink
+  - plant
+ 
+ goal:
+  - door
+  - curtain
+  - curtain
+  - sink
+  - sink
+  - plant
+  - plant
+  
+P2:
+ action:
+  - get something to drink
+ 
+ start:
+  - fridge
+ 
+ goal:
+  - fridge
+   
+objects:
+ - door
+ - curtain
+ - sink
+ - fridge
+ - plant
+ 
+conversation:
+ - 
+ - P1 said 'Why are you in such a dark room?'
+ - 
+ - P1 and P2 talked about how sunlight is also essential for plants.
+ - 
+ - P1 told P2 to water plants but P2 replied 'No, I need to hydrate myself first.'.
+ - 
+
+object states:
+ - Here, "curtain" is close
+ - Here, "curtain" is close
+ - Here, "curtain" is close
+ - watering can is close by the "sink"
+ - watering can is close by the "sink"
+ - Here, "P1" is holding a watering can filled with water
+ - Here, "P1" is holding a watering can filled with water

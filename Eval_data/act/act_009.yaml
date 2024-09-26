@@ -1,0 +1,62 @@
+P1:
+ high-level task: read "book" on "couch"
+ action:
+  - get "iced coffee"
+  - go to "cupboard"
+  - get "glass"
+  - go to "book"
+  - get "book"
+  - go to "couch"
+  - read "book" on "couch"
+  
+ start:
+  - fridge
+  - fridge
+  - cupboard
+  - cupboard
+  - book
+  - book
+  - couch
+ 
+ goal:
+  - fridge
+  - cupboard
+  - cupboard
+  - book
+  - book
+  - couch
+  - couch
+  
+P2:
+ action:
+  - reading "book" on "couch"
+ 
+ start:
+  - couch
+ 
+ goal:
+  - couch
+   
+objects:
+ - fridge
+ - cupboard
+ - couch
+ - book
+
+conversation:
+ - 
+ - P1 asked P2 if P2 like something to drink, and P2 replied 'No, thanks.'.
+ - 
+ - P1 and P2 discussed about favorite books.
+ - 
+ - P1 asked P2 if P1 can sit beside P2, and P2 replied 'Ofcourse, why not?.'
+ - 
+ 
+object states:
+ - 
+ - Here, "cupboard" has glasses, cups, plates, knives, folks
+ - 
+ - 
+ - 
+ - 
+ - 

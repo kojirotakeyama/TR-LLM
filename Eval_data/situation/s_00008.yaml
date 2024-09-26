@@ -1,0 +1,29 @@
+P1:
+ name: Amelia
+ age: 19
+ gender: female
+ agent type: human
+ relationship to others:
+  - Joanna: friend
+ personality:
+  - analytical
+  - introverted
+  - methodical
+
+P2:
+ name: Joanna
+ age: 19
+ gender: female
+ agent type: human
+ relationship to others:
+  - Amelia: friend
+ personality:
+  - creative
+  - extroverted
+  - compassionate
+
+Scene:
+ season: fall
+ day: weekend
+ time: "16:40"
+

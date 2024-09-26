@@ -1,0 +1,29 @@
+P1:
+ name: Andy
+ age: 60
+ gender: male
+ agent type: human
+ relationship to others:
+  - Mike: child
+ personality:
+  - analytical
+  - introverted
+  - methodical
+
+P2:
+ name: Mike
+ age: 19
+ gender: male
+ agent type: human
+ relationship to others:
+  - Andy: parent
+ personality:
+  - creative
+  - extroverted
+  - compassionate
+
+Scene:
+ season: spring
+ day: weekday
+ time: "7:10"
+

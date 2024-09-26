@@ -1,0 +1,46 @@
+P1:
+ high-level task: put the empty soda can on "coffee table" into "trash bin"
+ action:
+  - finish up drinking "soda"
+  - take "empty soda can" and sit up
+  - go to "trash bin"
+  - put "empty soda can" into "trash bin"
+  
+ start:
+  - coffee table
+  - coffee table
+  - coffee table
+  - trash bin
+ 
+ goal:
+  - coffee table
+  - coffee table
+  - trash bin
+  - trash bin
+  
+P2:
+ action:
+  - sitting on "couch"
+ 
+ start:
+  - couch
+ 
+ goal:
+  - couch
+   
+objects:
+ - couch
+ - coffee table
+ - trash bin
+
+conversation:
+ - 
+ - 
+ - P1 asked P2 if the soda can should go in the recycling or general waste.
+ - 
+
+object states:
+ - 
+ - 
+ - Here, "P1" is holding a empty soda can
+ - 

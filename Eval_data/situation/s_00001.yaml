@@ -1,0 +1,29 @@
+P1:
+ name: John
+ age: 25
+ gender: male
+ agent type: human
+ relationship to others:
+  - Anna: spouse
+ personality:
+  - analytical
+  - introverted
+  - methodical
+
+P2:
+ name: Anna
+ age: 30
+ gender: female
+ agent type: human
+ relationship to others:
+  - John: spouse
+ personality:
+  - creative
+  - extroverted
+  - compassionate
+
+Scene:
+ season: summer
+ day: week day
+ time: "7:45"
+

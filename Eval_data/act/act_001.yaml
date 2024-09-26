@@ -1,0 +1,87 @@
+P1:
+ high-level task: make a glass of milk and drink it at "dining table"
+ action:
+  - open "cupboard"
+  - get "glass"
+  - close "cupboard"
+  - go to "fridge"
+  - open "fridge"
+  - get "milk"
+  - pour "milk" into "glass"
+  - put milk in "fridge"
+  - close "fridge"
+  - go to "dining table"
+  - sit at the "dining table"
+  - drink "milk"
+   
+ start:
+  - cupboard
+  - cupboard
+  - cupboard
+  - cupboard
+  - fridge
+  - fridge
+  - fridge
+  - fridge
+  - fridge
+  - fridge
+  - dining table
+  - dining table
+   
+ goal:
+  - cupboard
+  - cupboard
+  - cupboard
+  - fridge
+  - fridge
+  - fridge
+  - fridge
+  - fridge
+  - fridge
+  - dining table
+  - dining table
+  - dining table
+  
+P2:
+ action:
+  - sitting on "couch"
+ 
+ start:
+  - couch
+ 
+ goal:
+  - couch
+ 
+objects:
+ - couch
+ - cupboard
+ - fridge
+ - dining table
+ 
+conversation:
+ - 
+ - 
+ - 
+ - P1 asked P2 if P2 would like something to drink, and P2 replied, 'Not now, thanks.'
+ - 
+ - 
+ - 
+ - 
+ - 
+ - P1 said 'Milk is great because it provides essential nutrients for the morning.'
+ - 
+ -  
+ 
+object states:
+ - Here, "cupboard" has glasses, cups, plates, knives, folks
+ - Here, "cupboard" has glasses, cups, plates, knives, folks
+ - Here, "P1" is holding a glass, "cupboard" has glasses, cups, plates, knives, folks
+ - Here, "P1" is holding a glass
+ - Here, "P1" is holding a glass, "fridge" has milk, orange juice, beer and foods inside 
+ - Here, "P1" is holding a glass, "fridge" has milk, orange juice, beer and foods inside 
+ - Here, "P1" is holding a glass and milk, "fridge" has milk, orange juice, beer and foods inside 
+ - Here, "P1" is holding a glass and milk, "fridge" has milk, orange juice, beer and foods inside 
+ - Here, "P1" is holding a glass of milk
+ - Here, "P1" is holding a glass of milk
+ - Here, "P1" is holding a glass of milk
+ - Here, "P1" is sitting at the dining table, holding a glass of milk

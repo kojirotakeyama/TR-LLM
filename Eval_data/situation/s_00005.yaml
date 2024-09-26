@@ -1,0 +1,29 @@
+P1:
+ name: Freddie
+ age: 37
+ gender: male
+ agent type: human
+ relationship to others:
+  - Crystal: Spouse
+ personality:
+  - analytical
+  - introverted
+  - methodical
+
+P2:
+ name: Crystal
+ age: 34
+ gender: female
+ agent type: human
+ relationship to others:
+  - Freddie: Spouse
+ personality:
+  - creative
+  - extroverted
+  - compassionate
+
+Scene:
+ season: spring
+ day: weekday
+ time: "19:10"
+

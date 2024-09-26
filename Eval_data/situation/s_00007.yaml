@@ -1,0 +1,29 @@
+P1:
+ name: Tom
+ age: 26
+ gender: male
+ agent type: human
+ relationship to others:
+  - Serena: spouse
+ personality:
+  - analytical
+  - introverted
+  - methodical
+
+P2:
+ name: Serena
+ age: 26
+ gender: female
+ agent type: human
+ relationship to others:
+  - Tom: spouse
+ personality:
+  - creative
+  - extroverted
+  - compassionate
+
+Scene:
+ season: summer
+ day: weekday
+ time: "20:10"
+

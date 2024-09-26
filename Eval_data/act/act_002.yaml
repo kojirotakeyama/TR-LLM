@@ -1,0 +1,51 @@
+P1:
+ high-level task: get the dirty glass on "table" and put it into "sink"
+ action:
+  - sit up from "chair"
+  - go to "table"
+  - get the dirty glass
+  - go to "sink"
+  - put the dirty glass into "sink"
+ 
+ start:
+  - chair
+  - chair
+  - table
+  - table
+  - sink
+ 
+ goal:
+  - chair
+  - table
+  - table
+  - sink
+  - sink
+
+P2:
+ action:
+  - eating breakfast
+ 
+ start:
+  - table
+ 
+ goal:
+  - table
+ 
+objects:
+ - table
+ - sink
+ - chair
+ 
+conversation:
+ - 
+ - P1 asked P2 if P2 had finished the glass.
+ - 
+ - P1 told P2 it's almost the time to go to school.
+ - 
+ 
+object states:
+ - There are some dirty glasses and dirty plates on the "table"
+ - There are some dirty glasses and dirty plates on the "table"
+ - There are some dirty glasses and dirty plates on the "table"
+ - Here, "P1" is holding some dirty glasses
+ - Here, "P1" is holding some dirty glasses

@@ -1,0 +1,50 @@
+P1:
+ high-level task: take dirty plates on "dining table" to "dishwasher"
+ action:
+  - put "catlery" in "dishwasher"
+  - go to "dining table"
+  - get "dirty plates"
+  - go to "dishwasher"
+  - put "dirty plates" into "dishwasher"
+  
+ start:
+  - dishwasher
+  - dishwasher
+  - dining table
+  - dining table
+  - dishwasher
+ 
+ goal:
+  - dishwasher
+  - dining table
+  - dining table
+  - dishwasher
+  - dishwasher
+  
+P2:
+ action:
+  - put "dirty glasses" into "dishwasher"
+ 
+ start:
+  - dishwasher
+ 
+ goal:
+  - dishwasher
+   
+objects:
+ - dining table
+ - dishwasher
+
+conversation:
+ - 
+ - P2 asked P1 to bring the rest of finished plates on the "dining table".
+ - 
+ - P1 and P2 talked about things to do after finishing cleaning up the table.
+ - 
+
+object states:
+ - 
+ - There are many dirty plates on the "dining table"
+ - 
+ - There are some dirty plates on the "dining table"
+ - 

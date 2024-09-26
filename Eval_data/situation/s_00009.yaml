@@ -1,0 +1,29 @@
+P1:
+ name: Gavin
+ age: 37
+ gender: male
+ agent type: human
+ relationship to others:
+  - Olivia: friend
+ personality:
+  - analytical
+  - introverted
+  - methodical
+
+P2:
+ name: Olivia
+ age: 44
+ gender: female
+ agent type: human
+ relationship to others:
+  - Gavin: friend
+ personality:
+  - creative
+  - extroverted
+  - compassionate
+
+Scene:
+ season: winter
+ day: weekend
+ time: "14:00"
+

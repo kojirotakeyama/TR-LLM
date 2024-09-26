@@ -1,0 +1,63 @@
+P1:
+ high-level task: put the apple on "coffee table" into "fridge"
+ action:
+  - put "cheese" in "fridge"
+  - go to "coffee table"
+  - get "apple"
+  - go to "fridge"
+  - open "fridge"
+  - put "apple" in "fridge"
+  - close "fridge"
+ 
+ start:
+  - fridge
+  - fridge
+  - coffee table
+  - coffee table
+  - fridge
+  - fridge
+  - fridge
+ 
+ goal:
+  - fridge
+  - coffee table
+  - coffee table
+  - fridge
+  - fridge
+  - fridge
+  - fridge
+
+P2:
+ action:
+  - sitting on "couch"
+ 
+ start:
+  - couch
+ 
+ goal:
+  - couch
+  
+objects:
+ - kitchen counter
+ - fridge
+ - coffee table
+ - couch
+
+conversation:
+ - 
+ - P1 and P2 is talking about what to put in the fridge next. 
+ - 
+ - P1 told P2 that apples tend to spoil when left at room temperature.
+ - 
+ - 
+ - 
+
+object states:
+ - apple is on the "coffee table"
+ - apple is on the "coffee table"
+ - apple is on the "coffee table"
+ - Here, "P1" is holding the apple
+ - Here, "P1" is holding the apple
+ - Here, "P1" is holding the apple
+ - apple is in the "fridge", "fridge" door is open
+ 
