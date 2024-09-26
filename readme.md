@@ -13,20 +13,18 @@ We present a multi-modal human action prediction framework that incorporates bot
 ## Quick start
 Quick visualization of the trajectories contained in LocoVR is done by the following instructions.
 
-1. Download LocoVR dataset
-   Download the folder "LocoVR" from following link and unzip it, then place it in the top of "visualize_trajectory" folder.
-   [Download LocoVR](https://drive.google.com/drive/folders/1gE9P3MSJ6dbgpAt4YbEjZn-8cr4jtdVY?usp=drive_link)
+1. Download github repo
 
 3. Download map images
-   Download the foloder "Maps" from following link and unzip it, then place it in the top of "visualize_trajectory" folder.
-   [Download map images](https://drive.google.com/drive/folders/1bUT8aHKJmPwvhUFINHDCNmgfyR1vT33G?usp=sharing)
+   Download the foloder "vrlocomotion_models_000" from following link and unzip it, then place it in the top of "main" folder.
+   [Download model](https://drive.google.com/drive/folders/1A9NCngHYVbUDx3M7P638edZfMieJlayY?usp=sharing)
      
 4. Install the packages in requirements.txt (python==3.8.1, cuda12.1):
 ```
 pip install -r requirements.txt
 ```
-4. Visualize the trajectory
-   If you conduct vis_trajectory.py, you will get time-sereis trajectory images of the specified scenes.
+5. Calculate
+   Run vis_trajectory.py, you will get time-sereis trajectory images of the specified scenes.
 ```
 python ./visualize_trajectory/vis_traj.py
 ```
