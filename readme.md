@@ -1,21 +1,14 @@
-# LocoVR: Multiuser Indoor Locomotion Dataset in Virtual Reality
+# TR-LLM: Integrating Trajectory Data for Scene-Aware LLM-Based Human Action Prediction
 
-We present LocoVR, a dataset of multi-person interactions in over 130 different indoor VR scenes, including 3D body pose data and highly accurate spatial information. The dataset can be used to build AI agents that operate in indoor environments, such as home robots, or to create virtual avatars for games or animations that mimic human movement and posture. 
+We present a multi-modal human action prediction framework that incorporates both an LLM and human trajectories. The core idea is to integrate two different perspectives—physical and semantic factors—through an object-based action prediction framework to reduce uncertainties and enhance action prediction accuracy. This site provides codes and dataset to test our method.
+
 <!--
 <center>
  <img src="./Overview.png" alt="Overview" width="800">
 </center>
 -->
 ![Overview](./Overview.png)
- - All scene data (3D geometry, semantics, textures) are derived from [Habitat-Matterport 3D Semantics Dataset (HM3DSem)](https://aihabitat.org/datasets/hm3d-semantics/) and [Habitat-Matterport 3D Dataset](https://aihabitat.org/datasets/hm3d/).
 
-## Downloading LocoVR dataset
-LocoVR dataset is accessible from the following download link. 
-[Download LocoVR](https://drive.google.com/drive/folders/1gE9P3MSJ6dbgpAt4YbEjZn-8cr4jtdVY?usp=drive_link)
-
-
-LocoVR is provided with Python pickle files. Detailed contents of the dataset is described below.
-[Contents of the dataset](./dataset_structure/README.md)
 
 ## Quick start
 Quick visualization of the trajectories contained in LocoVR is done by the following instructions.
