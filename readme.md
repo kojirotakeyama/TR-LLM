@@ -4,7 +4,7 @@ We present a multi-modal human action prediction framework that incorporates bot
 
 <!--
 <center>
- <img src="./Overview.png" alt="Overview" width="800">
+ <img src="./Overview.png" alt="Overview" width="400">
 </center>
 -->
 ![Overview](./Overview.jpg)
