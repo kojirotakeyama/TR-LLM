@@ -2,8 +2,9 @@
 
 We present a multi-modal human action prediction framework that incorporates both an LLM and human trajectories. The core idea is to integrate two different perspectives—physical and semantic factors—through an object-based action prediction framework to reduce uncertainties and enhance action prediction accuracy. This github repo provides codes and evaluation data to test our model.
 
-<img src="./Overview.jpg" width="400" height="600" />
-
+<div align="center">
+<img src="./Overview.jpg" width="600" height="800" />
+<div></div>
 
 ## Quick start
 Quick visualization of the trajectories contained in LocoVR is done by the following instructions.
