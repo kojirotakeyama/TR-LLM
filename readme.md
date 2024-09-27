@@ -23,39 +23,20 @@ Quick visualization of the trajectories contained in LocoVR is done by the follo
 ```
 pip install -r requirements.txt
 ```
-5. Calculate
-   Run vis_trajectory.py, you will get time-sereis trajectory images of the specified scenes.
+5. Set API key and Organization code 
+   Open setting.py in the main folder, and replace "*******" at API_KEY and ORGANIZATION with your original information.
+   
+6. Calculate
+   Run TR-LLM.py, then it will generate results in "Result" folder.
 ```
-python ./visualize_trajectory/vis_traj.py
+python ./main/TR-LLM.py
 ```
-Tips: 
-- To change the scene of visualization, edit "scene_id" in the config.yaml. You can choose multiple scenes with a list style.
-- To change the map type, edit "map type" in the config.yaml.
-- To change the type of visualizing trajectory, edit "type_viz" to "waist" or "body".
 
-## Map generation
-All the 2D maps provided in the "Quick start" are generated basd on HM3DSem datasets.
-Following instruction will help you generating the maps.
-
-1. Download Habitat Dataset
-Download Habitat Dataset from the following link and place it on the directory you specified on the config.yaml.
-To generate the maps, download HM3DSem datasets (hm3d-train-semantic-annots-v0.2.tar/hm3d-val-semantic-annots-v0.2.tar) from the following link.
-- [HM3DSem](https://github.com/matterport/habitat-matterport-3dresearch/tree/main)
-
-If you just want to test the map generation code, you can do it with small sample data: hm3d-example-semantic-annots-v0.2.tar
-
-2. Generate maps
-  You can generate 2D maps from the HM3DSem Dataset through running generate_map.py as follows.
+6. Evaluate
+   Run Evaluation.sh to get quantitative and qualitative evaluation results.
 ```
-python ./Generate_map/generate_map.py
-```
-Tips: 
-- To change the map type (binary, height, semantic, texture), modify "map_type" in the config.yaml.
-- If you need to generate photo realistic texture map, download HM3D (including .obj) from the following link.
-  - [HM3D](https://matterport.com/partners/facebook)
-
-## Evaluation codes for NeurIPS2024
-Evaluation code and data for NeurIPS2024 is available at [NeurIPS2024](https://anonymous.4open.science/r/NeurIPS2024-1FD1/README.md)
+bash ./main/Evaluation.sh
+```  
 
 ## Citation
 If you find this repo useful for your research, please consider citing:
