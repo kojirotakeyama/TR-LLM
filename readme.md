@@ -1,6 +1,6 @@
 # TR-LLM: Integrating Trajectory Data for Scene-Aware LLM-Based Human Action Prediction
 
-We present a multi-modal human action prediction framework that incorporates both an LLM and human trajectories. The core idea is to integrate two different perspectives—physical and semantic factors—through an object-based action prediction framework to reduce uncertainties and enhance action prediction accuracy. This site provides codes and dataset to test our method.
+We present a multi-modal human action prediction framework that incorporates both an LLM and human trajectories. The core idea is to integrate two different perspectives—physical and semantic factors—through an object-based action prediction framework to reduce uncertainties and enhance action prediction accuracy. This github repo provides codes and evaluation data to test our model.
 
 <!--
 <center>
