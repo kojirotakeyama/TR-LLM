@@ -17,7 +17,7 @@ Quick visualization of the trajectories contained in LocoVR is done by the follo
 
 3. Download map images
    Download the foloder "vrlocomotion_models_000" from following link and unzip it, then place it in the top of "main" folder.
-   [Download model](https://drive.google.com/drive/folders/1A9NCngHYVbUDx3M7P638edZfMieJlayY?usp=sharing)
+   [Download model](https://drive.google.com/drive/folders/1A9NCngHYVbUDx3M7P638edZfMieJlayY?usp=drive_link)
      
 4. Install the packages in requirements.txt (python==3.8.1, cuda12.1):
 ```
