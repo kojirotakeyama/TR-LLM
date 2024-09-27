@@ -32,7 +32,7 @@ pip install -r requirements.txt
 python ./main/TR-LLM.py
 ```
 
-6. Evaluate
+7. Evaluate
    Run Evaluation.sh to get quantitative and qualitative evaluation results.
 ```
 bash ./main/Evaluation.sh
