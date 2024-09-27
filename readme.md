@@ -4,7 +4,7 @@ We present a multi-modal human action prediction framework that incorporates bot
 
 <div align="center">
 <img src="./Overview.jpg" width="600" height="800" />
-<div></div>
+</div>
 
 ## Quick start
 Quick visualization of the trajectories contained in LocoVR is done by the following instructions.
