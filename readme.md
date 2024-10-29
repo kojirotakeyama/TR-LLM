@@ -3,6 +3,7 @@
 We present a multi-modal human action prediction framework that incorporates both an LLM and human trajectories. The core idea is to integrate two different perspectives—physical and semantic factors—through an object-based action prediction framework to reduce uncertainties and enhance action prediction accuracy. This github repo provides codes and evaluation data to test our model.
 
 [Project website](https://sites.google.com/view/tr-llm/%E3%83%9B%E3%83%BC%E3%83%A0)
+
 [arxiv paper](https://arxiv.org/abs/2410.03993)
 
 <div align="center">
