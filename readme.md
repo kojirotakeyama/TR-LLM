@@ -2,7 +2,8 @@
 
 We present a multi-modal human action prediction framework that incorporates both an LLM and human trajectories. The core idea is to integrate two different perspectives—physical and semantic factors—through an object-based action prediction framework to reduce uncertainties and enhance action prediction accuracy. This github repo provides codes and evaluation data to test our model.
 
-Visit our [website](https://sites.google.com/view/tr-llm/%E3%83%9B%E3%83%BC%E3%83%A0) for the project.
+[Project website](https://sites.google.com/view/tr-llm/%E3%83%9B%E3%83%BC%E3%83%A0)
+[arxiv paper](https://arxiv.org/abs/2410.03993)
 
 <div align="center">
 <img src="./Overview.jpg" width="600" height="800" />
@@ -37,6 +38,12 @@ bash ./main/Evaluation.sh
 
 ## Citation
 If you find this repo useful for your research, please consider citing:
+@article{takeyama2024tr,
+  title={TR-LLM: Integrating Trajectory Data for Scene-Aware LLM-Based Human Action Prediction},
+  author={Takeyama, Kojiro and Liu, Yimeng and Sra, Misha},
+  journal={arXiv preprint arXiv:2410.03993},
+  year={2024}
+}
 
 ## License
 This project is licensed under the MIT License
