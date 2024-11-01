@@ -39,6 +39,7 @@ bash ./main/Evaluation.sh
 
 ## Citation
 If you find this repo useful for your research, please consider citing:
+
 @article{takeyama2024tr,
   title={TR-LLM: Integrating Trajectory Data for Scene-Aware LLM-Based Human Action Prediction},
   author={Takeyama, Kojiro and Liu, Yimeng and Sra, Misha},
